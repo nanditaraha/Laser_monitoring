@@ -10,12 +10,6 @@ The right panel depicts the stability of PIN 1 of the source monitor after apply
 <img width="308" alt="Screen Shot 2022-04-10 at 6 14 58 AM" src="https://user-images.githubusercontent.com/27436642/162613438-8205195a-3ce5-4eb5-8b87-7135f61eccc2.png">
 <img width="480" alt="image" src="https://user-images.githubusercontent.com/27436642/162613308-c89bd16b-3534-4e19-b892-603af8823bd5.png"></br>
 
-## Simulation of gain function of the SiPM
-Silicon Photo-Multipliers (SiPMs) were used to read data from the calorimeters and the gain fluctuation (or function) was modelled based on 
-bias-voltage sagging (due to decay of current in capacitors and other circuit elements) - this matched well with small desktop experimental 
-results as shown:</br> 
-<img width="348" alt="Screen Shot 2022-04-10 at 6 41 23 AM" src="https://user-images.githubusercontent.com/27436642/162614319-5cb05518-582e-4437-9447-fe8fc9adaefb.png">
-<img width="437" alt="Screen Shot 2022-04-10 at 6 45 55 AM" src="https://user-images.githubusercontent.com/27436642/162614447-6c587309-45aa-411b-b2c1-192a5fa95a6e.png"></br>
 ### Instructions for running the code:
 The code uses ROOT and C++. All data is saved in root trees are read and analyzed using simple macros.</br>
 Make sure to have GCC 4.8.5+, clang 3.6+ and ROOT 6.24/06 or higher.
